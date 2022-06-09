@@ -27,6 +27,11 @@ body {
   text-decoration: none;
 }
 
+h1 {
+  font-size: 48px;
+}
+
 .hero-text :not(h1) {
   color: #e5e7eb;
+  font-size: 18px;
 }
