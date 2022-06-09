@@ -1,3 +1,3 @@
-# odin-landing-page
+# Odin Landing Page
 
 My second project for The Odin Project's Foundations course
