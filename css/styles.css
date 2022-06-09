@@ -7,7 +7,15 @@ body {
   color: #f9faf8;
 }
 
+.navbar {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .navbar > ul {
+  column-gap: 16px;
+  display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
