@@ -4,18 +4,18 @@ body {
   margin: 0;
 }
 
-.hero-header {
+header {
   background-color: #1f2937;
   color: #f9faf8;
 }
 
-.navbar {
+nav {
   align-items: center;
   display: flex;
   justify-content: space-evenly;
 }
 
-.navbar > ul {
+nav > ul {
   column-gap: 16px;
   display: flex;
   list-style: none;
@@ -23,7 +23,7 @@ body {
   padding: 0;
 }
 
-.navbar a {
+nav a {
   color: #e5e7eb;
   text-decoration: none;
 }
