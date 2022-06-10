@@ -76,6 +76,7 @@ h2 {
 
 .tiles figure {
   width: min-content;
+  text-align: center;
 }
 
 .tiles img {
