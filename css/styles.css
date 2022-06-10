@@ -37,6 +37,17 @@ h1 + * {
   margin-top: 0;
 }
 
+.hero-text-and-image {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-text {
+  flex: 0 0 auto;
+  width: 522px;
+}
+
 .hero-text :not(h1, button) {
   color: #e5e7eb;
 }
