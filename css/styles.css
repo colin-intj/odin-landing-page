@@ -143,7 +143,7 @@ blockquote {
   background-color: #3882f6;
   display: flex;
   justify-content: space-evenly;
-  margin: 48px 0;
+  padding: 64px 0;
   width: 70%;
 }
 
@@ -151,21 +151,12 @@ blockquote {
   color: #e5e7eb;
 }
 
-.call-to-action-text > :first-child {
-  margin-top: 64px;
+.call-to-action-text > * {
+  margin: 0;
 }
 
 .call-to-action-text > h2 {
   color: #f9faf8;
-  margin-bottom: 0;
-}
-
-.call-to-action-text > h2 + p {
-  margin-top: 0;
-}
-
-.call-to-action-text > :last-child {
-  margin-bottom: 64px;
 }
 
 .call-to-action > button {
