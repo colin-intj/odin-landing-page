@@ -87,3 +87,8 @@ h2 {
 .tiles figcaption {
   color: #6d747d;
 }
+
+.quote-citation {
+  font-weight: bold;
+  text-align: right;
+}
