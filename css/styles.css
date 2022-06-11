@@ -88,6 +88,12 @@ h2 {
   color: #6d747d;
 }
 
+.quote {
+  align-self: center;
+  display: flex;
+  justify-content: center;
+}
+
 .quote-citation {
   font-weight: bold;
   text-align: right;
