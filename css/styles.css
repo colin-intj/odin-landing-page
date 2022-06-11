@@ -84,11 +84,15 @@ button {
   width: 60%;
 }
 
+.information-container > h2 {
+  margin-top: 0;
+  text-align: center;
+}
+
 h2 {
   color: #1f2937;
   font-size: 2em;
   font-weight: bold;
-  text-align: center;
 }
 
 .tiles-container {
@@ -154,7 +158,6 @@ blockquote {
 .call-to-action-text > h2 {
   color: #f9faf8;
   margin-bottom: 0;
-  text-align: left;
 }
 
 .call-to-action-text > h2 + p {
