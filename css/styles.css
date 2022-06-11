@@ -126,7 +126,7 @@ h2 {
 }
 
 .call-to-action-text > :first-child {
-  margin-top: 16px;
+  margin-top: 24px;
 }
 
 .call-to-action-text > h2 {
@@ -140,7 +140,7 @@ h2 {
 }
 
 .call-to-action-text > :last-child {
-  margin-bottom: 16px;
+  margin-bottom: 24px;
 }
 
 .call-to-action > button {
