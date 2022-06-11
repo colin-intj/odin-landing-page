@@ -46,11 +46,6 @@ h1 + * {
   margin-top: 0;
 }
 
-.hero-text {
-  flex: 0 0 auto;
-  width: 522px;
-}
-
 .hero-text :not(h1, button) {
   color: #e5e7eb;
 }
@@ -62,6 +57,12 @@ button {
   color: #f9faf8;
   font-size: inherit;
   padding: 8px 16px;
+}
+
+.hero-container > img {
+  max-width: 522px;
+  min-width: 294px;
+  width: 100%;
 }
 
 .information,
