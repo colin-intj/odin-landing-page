@@ -4,15 +4,9 @@ body {
   margin: 0;
 }
 
-header {
-  background-color: #1f2937;
-  color: #f9faf8;
-  display: flex;
-  flex-direction: column;
-}
-
 nav {
   align-items: center;
+  background-color: #1f2937;
   display: flex;
   justify-content: space-evenly;
 }
@@ -30,11 +24,25 @@ nav a {
   text-decoration: none;
 }
 
+header,
+section {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 64px 0;
+}
+
+header {
+  background-color: #1f2937;
+  color: #f9faf8;
+  display: flex;
+  flex-direction: column;
+}
+
 .hero-container {
   align-items: center;
   display: flex;
   justify-content: center;
-  margin: 64px auto;
   width: 70%;
 }
 
@@ -66,9 +74,8 @@ button {
   width: 100%;
 }
 
-.information,
-.quote {
-  padding-bottom: 64px;
+.information {
+  width: 60%;
 }
 
 h2 {
@@ -81,10 +88,6 @@ h2 {
 .tiles {
   align-items: center;
   display: flex;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
 }
 
 .tiles figure {
@@ -101,17 +104,13 @@ h2 {
   color: #6d747d;
 }
 
-.quote {
-  align-self: center;
+.quote-section {
   background-color: #e5e7eb;
-  color: #1f2937;
-  display: flex;
-  font-size: 2em;
-  justify-content: center;
-  padding-top: 64px;
 }
 
 blockquote {
+  color: #1f2937;
+  font-size: 2em;
   width: 60%;
 }
 
@@ -122,12 +121,6 @@ blockquote {
 .quote-citation {
   font-weight: bold;
   text-align: right;
-}
-
-.call-to-action-container {
-  align-items: center;
-  display: flex;
-  justify-content: center;
 }
 
 .call-to-action {
@@ -168,8 +161,8 @@ blockquote {
 footer {
   align-items: center;
   background-color: #1f2937;
-  display: flex;
   color: #e5e7eb;
+  display: flex;
   justify-content: center;
   text-align: center;
 }
