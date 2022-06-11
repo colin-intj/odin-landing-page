@@ -116,7 +116,9 @@ h2 {
   align-items: center;
   background-color: #3882f6;
   display: flex;
+  justify-content: center;
   margin: 48px 0;
+  width: 70%;
 }
 
 .call-to-action :not(h2, button) {
