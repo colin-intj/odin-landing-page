@@ -90,6 +90,8 @@ h2 {
 
 .quote {
   align-self: center;
+  background-color: #e5e7eb;
+  color: #1f2937;
   display: flex;
   justify-content: center;
 }
