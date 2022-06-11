@@ -43,13 +43,13 @@ header {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
-  row-gap: 8px;
+  gap: 8px 16px;
   justify-content: center;
   width: 70%;
 }
 
 .hero-text {
-  width: 50%;
+  flex: 1 1 50%;
 }
 
 .hero-text :not(h1, button) {
@@ -75,9 +75,9 @@ button {
 }
 
 .hero-container > img {
+  flex: 1 0 294px;
   max-width: 522px;
-  min-width: 294px;
-  width: 50%;
+  width: 100%;
 }
 
 .information-container {
