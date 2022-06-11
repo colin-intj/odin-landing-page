@@ -64,6 +64,11 @@ button {
   padding: 8px 16px;
 }
 
+.information,
+.quote {
+  padding-bottom: 64px;
+}
+
 h2 {
   color: #1f2937;
   font-size: 2em;
@@ -98,6 +103,7 @@ h2 {
   display: flex;
   font-size: 2em;
   justify-content: center;
+  padding-top: 64px;
 }
 
 .quote-body {
