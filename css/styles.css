@@ -121,6 +121,7 @@ h2 {
 blockquote {
   color: #1f2937;
   font-size: 2em;
+  margin: 0;
   width: 60%;
 }
 
