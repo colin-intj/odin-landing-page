@@ -95,12 +95,14 @@ h2 {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
+  gap: 24px;
   justify-content: center;
 }
 
 .tiles-container figure {
-  width: min-content;
+  margin: 0;
   text-align: center;
+  width: min-content;
 }
 
 .tiles-container img {
