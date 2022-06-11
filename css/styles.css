@@ -114,6 +114,7 @@ h2 {
 
 .call-to-action > h2 {
   margin-bottom: 0;
+  text-align: left;
 }
 
 .call-to-action > h2 + p {
