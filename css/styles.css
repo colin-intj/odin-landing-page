@@ -74,7 +74,7 @@ button {
   width: 100%;
 }
 
-.information {
+.information-container {
   width: 60%;
 }
 
@@ -85,22 +85,22 @@ h2 {
   text-align: center;
 }
 
-.tiles {
+.tiles-container {
   align-items: center;
   display: flex;
 }
 
-.tiles figure {
+.tiles-container figure {
   width: min-content;
   text-align: center;
 }
 
-.tiles img {
+.tiles-container img {
   border: 4px solid #3882f6;
   border-radius: 16px;
 }
 
-.tiles figcaption {
+.tiles-container figcaption {
   color: #6d747d;
 }
 
