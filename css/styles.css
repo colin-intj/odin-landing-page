@@ -113,20 +113,22 @@ h2 {
 }
 
 .call-to-action {
+  align-items: center;
   background-color: #3882f6;
+  display: flex;
 }
 
 .call-to-action :not(h2, button) {
   color: #e5e7eb;
 }
 
-.call-to-action > h2 {
+.call-to-action-text > h2 {
   color: #f9faf8;
   margin-bottom: 0;
   text-align: left;
 }
 
-.call-to-action > h2 + p {
+.call-to-action-text > h2 + p {
   margin-top: 0;
 }
 
