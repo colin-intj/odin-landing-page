@@ -112,7 +112,16 @@ h2 {
   justify-content: center;
 }
 
+.call-to-action {
+  background-color: #3882f6;
+}
+
+.call-to-action :not(h2, button) {
+  color: #e5e7eb;
+}
+
 .call-to-action > h2 {
+  color: #f9faf8;
   margin-bottom: 0;
   text-align: left;
 }
