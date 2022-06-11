@@ -34,7 +34,8 @@ nav a {
   align-items: center;
   display: flex;
   justify-content: center;
-  margin: 64px 0;
+  margin: 64px auto;
+  width: 70%;
 }
 
 h1 {
