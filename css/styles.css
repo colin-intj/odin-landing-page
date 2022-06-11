@@ -125,6 +125,10 @@ h2 {
   color: #e5e7eb;
 }
 
+.call-to-action-text > :first-child {
+  margin-top: 16px;
+}
+
 .call-to-action-text > h2 {
   color: #f9faf8;
   margin-bottom: 0;
@@ -133,6 +137,10 @@ h2 {
 
 .call-to-action-text > h2 + p {
   margin-top: 0;
+}
+
+.call-to-action-text > :last-child {
+  margin-bottom: 16px;
 }
 
 .call-to-action > button {
